@@ -17,7 +17,8 @@ Founded and based in Argentina. Serving clients globally.
 
 ## Products
 
-- **Funes** — A memory-powered AI assistant that learns from every problem it encounters. Maintains a Problem Memory Bank of solved challenges, retrieves similar past solutions, and applies them to new contexts. Each session improves the system’s future performance.
+- **Funes** — A memory-powered AI assistant that learns from every problem it encounters. Maintains a Problem Memory Bank of solved challenges, retrieves similar past solutions, and applies them to new contexts. Each session improves the system's future performance.
+- **AgentOS** — An agent-native OS layer that turns LLM agents into first-class system entities on Linux. It maps traditional OS concepts—processes, syscalls, lifecycle—to agent operations, providing structured management and standardized tool access via MCP. Enables agent lifecycle management (start, stop, restart), MCP protocol integration for agent-OS communication, allowlist-based tool access control, and natural-language agent creation without code.
 
 ## Key Pages
 
