@@ -3,142 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto²ML - We Solve Problems</title>
+    <title>Funes — the private AI assistant that remembers</title>
+    <meta name="description" content="Funes is an AI assistant that runs on your own computer, remembers what matters, and never sends your clients' files to somebody else's cloud. Built for law firms, medical and mental-health practices, and anyone who works under confidentiality.">
+    <link rel="canonical" href="https://www.auto2ml.tech/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Funes — the private AI assistant that remembers">
+    <meta property="og:description" content="An AI assistant with a real memory that runs on hardware you own. Your clients' files never leave the building.">
+    <meta property="og:url" content="https://www.auto2ml.tech/">
+    <meta property="og:image" content="https://www.auto2ml.tech/img/funes-ui.png">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="funes-page">
 
-    <header class="header">
+    <header class="topbar">
         <div class="container">
-            <img src="img/logo.png" alt="Auto2ML Logo" class="logo">
+            <a class="topbar-brand" href="#top">
+                <img src="img/logo.png" alt="Auto²ML" class="topbar-logo">
+                <span class="topbar-product">Funes</span>
+            </a>
+            <nav class="topnav">
+                <a href="#what">What it does</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#who">Who it's for</a>
+                <a href="#faq">Questions</a>
+                <a href="#contact" class="btn-small">Book a demo</a>
+            </nav>
         </div>
     </header>
 
-    <main>
-        <section class="hero">
+    <main id="top">
+
+        <section class="funes-hero">
             <div class="container">
-                <h1>We Turn Problems Into Solutions</h1>
-                <p class="subtitle">At Auto²ML, every business challenge becomes an opportunity for intelligent automation. We transform your most complex data problems into self-solving AI systems that deliver results while you focus on what matters most—growing your business.</p>
-                <p class="mission-statement">We don't just build AI tools—we engineer problem-solving intelligence.</p>
+                <span class="hero-tag"><span class="dot"></span> Funes 4 — now with accounts for your whole practice</span>
+                <h1>The AI assistant that remembers your work — and <em>never leaves your office</em></h1>
+                <p class="hero-sub">Funes runs on a computer you own. It remembers your clients, your cases, your ongoing matters — and every single thing it knows is visible to you, editable by you, and deletable by you. Nothing is uploaded. Nothing is used to train anybody's model.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary">Book a demo</a>
+                    <a href="#what" class="btn-secondary">See what it does</a>
+                </div>
+                <p class="hero-note">A 30-minute call. We'll show you Funes running on real hardware.</p>
+                <div class="trust-strip">
+                    <span>Runs on your own machine</span>
+                    <span>Works with no internet at all</span>
+                    <span>You can read everything it remembers</span>
+                    <span>Delete anything, any time</span>
+                </div>
             </div>
         </section>
 
-        <section class="mission-vision">
+        <section class="section">
             <div class="container">
-                <div class="mission-vision-grid">
-                    <div class="mission">
-                        <h2>Our Mission</h2>
-                        <p>To solve business problems through intelligent automation. We transform data challenges, operational inefficiencies, and decision-making bottlenecks into self-optimizing AI systems that deliver solutions 24/7. Every problem we encounter becomes a blueprint for automated intelligence.</p>
+                <div class="shot">
+                    <div class="shot-bar">
+                        <i></i><i></i><i></i>
+                        <b>Funes — running on the machine in your own office</b>
                     </div>
-                    <div class="vision">
-                        <h2>Our Vision</h2>
-                        <p>A world where businesses never face the same problem twice. We envision organizations equipped with AI systems that automatically identify, analyze, and solve challenges before they impact operations—creating self-improving enterprises that evolve with every obstacle they overcome.</p>
+                    <img src="img/funes-ui.png" alt="The Funes interface: a conversation on the left, and a panel on the right listing everything Funes remembers, each item with its source and date, and a box to teach it a new fact." loading="lazy">
+                </div>
+                <p class="shot-caption">On the right: everything Funes remembers about you. Search it, add to it, delete any line of it. There is no other copy.</p>
+            </div>
+        </section>
+
+        <section class="section section--tint">
+            <div class="container">
+                <div class="section-head--center">
+                    <p class="eyebrow">The problem</p>
+                    <h2>Most AI assistants ask you to hand over the one thing you can't hand over</h2>
+                    <p class="lead">Confidential work and public AI services are a bad fit. You are asked to paste privileged material into a service you don't control, run by a company you have no contract with, on servers in a country you didn't choose.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <h3>It goes somewhere else</h3>
+                        <p>Every question, every document, every name leaves your building and lands on hardware you have never seen. What happens to it afterwards is a policy page that can change next quarter.</p>
+                    </div>
+                    <div class="card">
+                        <h3>It forgets you anyway</h3>
+                        <p>You explain your practice, your clients, your way of working — and the next conversation starts from nothing. The context you rebuild every morning is thrown away every night.</p>
+                    </div>
+                    <div class="card">
+                        <h3>You can't see what it kept</h3>
+                        <p>When an assistant does remember something, you usually can't inspect it, correct it, or make it forget. You are trusting a black box with material you are professionally obliged to protect.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="features">
+        <section class="section" id="what">
             <div class="container">
-                <h2 class="section-title" style="text-align: center;">Automated Problem-Solving at Scale</h2>
-                <div class="feature-grid">
-                    <div class="feature-item">
-                        <h3>End-to-End Problem Resolution</h3>
-                        <p>Auto²ML means automating the complete problem-solving cycle. From identifying data quality issues to deploying predictive solutions, our AI handles every step of turning your challenges into competitive advantages.</p>
-                        <div class="feature-details">
-                            <ul>
-                                <li>Automated problem diagnosis and data cleaning</li>
-                                <li>Intelligent solution design and feature engineering</li>
-                                <li>Self-optimizing model development and validation</li>
-                                <li>Continuous problem monitoring and solution refinement</li>
-                                <li>Seamless solution deployment and scaling</li>
-                            </ul>
-                        </div>
+                <div class="section-head--center">
+                    <p class="eyebrow">What Funes does</p>
+                    <h2>An assistant that learns your practice and stays inside it</h2>
+                    <p class="lead">Everything below is in Funes 4, working today. No waiting list, no beta, no features that exist only on this page.</p>
+                </div>
+                <div class="grid grid-3">
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a4 4 0 0 0-4 4v1a3 3 0 0 0 0 6v1a4 4 0 0 0 8 0v-1a3 3 0 0 0 0-6V7a4 4 0 0 0-4-4z"/><path d="M12 3v18"/></svg>
+                        <h3>It actually remembers</h3>
+                        <p>Tell Funes something on Monday and it knows it in March. Before every answer it recalls what's relevant — the client, the matter, the way you like things written — and tells you what it recalled.</p>
                     </div>
-                    <div class="feature-item">
-                        <h3>Intelligence That Communicates Solutions</h3>
-                        <p>Solving problems is only half the battle—communicating solutions effectively is equally crucial. Our AI doesn't just find answers; it presents them in formats that drive immediate understanding and action.</p>
-                        <div class="feature-details">
-                            <ul>
-                                <li><strong>Solution Reports:</strong> Generate comprehensive analyses that explain not just what the solution is, but why it works and how to implement it</li>
-                                <li><strong>Problem-Solution Visualizations:</strong> Transform complex analytical findings into clear visual narratives that highlight the path from problem to resolution</li>
-                                <li><strong>Strategic Recommendations:</strong> Distill technical solutions into actionable business strategies with clear implementation roadmaps</li>
-                            </ul>
-                        </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+                        <h3>Its memory is in plain sight</h3>
+                        <p>One panel lists everything it knows, in ordinary sentences, each tagged with where it came from. Search it. Correct it. Teach it a fact directly. Delete a line and it is gone.</p>
                     </div>
-                    <div class="feature-item">
-                        <h3>AgentOS: Agent-Native OS Layer</h3>
-                        <p>AgentOS turns LLM agents into first-class system entities on Linux. It maps traditional OS concepts—processes, syscalls, lifecycle—to agent operations, giving agents structured management and standardized tool access via MCP.</p>
-                        <div class="feature-details">
-                            <ul>
-                                <li><strong>Agent Lifecycle Management:</strong> Start, stop, and restart agents like OS processes</li>
-                                <li><strong>MCP Protocol Integration:</strong> JSON-RPC 2.0 over HTTP/SSE as the standard agent-OS interface</li>
-                                <li><strong>Tool Access Control:</strong> Allowlist-based control over what system operations agents can execute</li>
-                                <li><strong>Natural-Language Agent Builder:</strong> Create new agents through conversation, no code required</li>
-                            </ul>
-                        </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M6 6l1 14h10l1-14"/></svg>
+                        <h3>It forgets on purpose</h3>
+                        <p>Left alone, an assistant's memory turns into clutter. Funes tidies itself up: near-duplicates get merged into one clear note, and stale chatter it never needed again is dropped. What you taught it deliberately is never thrown away.</p>
                     </div>
-                    <div class="feature-item">
-                        <h3>Funes: Memory-Powered Problem Solving</h3>
-                        <p>Our AI assistant Funes learns from every problem it encounters, building an evolving intelligence that applies past solutions to new challenges. Each solved problem makes the system smarter for future obstacles.</p>
-                        <div class="feature-details">
-                            <ul>
-                                <li><strong>Problem Memory Bank:</strong> Maintains detailed records of solved problems and successful solutions for instant pattern recognition</li>
-                                <li><strong>Solution Retrieval:</strong> Automatically identifies similar past challenges and adapts proven solutions to new contexts</li>
-                                <li><strong>Learning Enhancement:</strong> Each problem-solving session improves the system's ability to tackle future challenges</li>
-                                <li><strong>Tool Integration:</strong> Seamlessly connects with external systems to implement solutions beyond analysis and recommendations</li>
-                            </ul>
-                        </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg>
+                        <h3>It reads your documents</h3>
+                        <p>Drag in a PDF, a photo of a form, a set of notes — Funes reads it and you can ask about it straight away. The file stays in your own folder on your own disk.</p>
                     </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <h3>Conversations you can come back to</h3>
+                        <p>Every conversation is kept and listed, so you can reopen last week's thread exactly where it stopped — or delete the whole conversation in one click when it's no longer needed. <span class="tag-new">New in 4</span></p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <h3>An account for each person</h3>
+                        <p>Everyone in the practice gets their own login — and their own memories, conversations, files and reminders. One colleague simply cannot see another's. That separation is built into how Funes stores things, not into a screen that could be worked around. <span class="tag-new">New in 4</span></p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                        <h3>You decide who can do what</h3>
+                        <p>An administrator decides which assistants and which abilities each person gets. The powerful ones — running commands, reaching out to the network — are switched off until you decide otherwise. <span class="tag-new">New in 4</span></p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                        <h3>Reminders and routines</h3>
+                        <p>"Remind me every weekday at 8pm." "Every Monday, summarise what moved last week." Funes keeps a schedule and does the work on time, whether or not you have the browser open.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18z"/></svg>
+                        <h3>Research, when you ask for it</h3>
+                        <p>Need something looked up? Funes can search and read the web and come back with a summary and its sources. It only goes online for the questions where you want it to.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v12H7l-3 3z"/><path d="M8 9h8"/><path d="M8 12h5"/></svg>
+                        <h3>Reachable where you already are</h3>
+                        <p>Beyond the browser, Funes can answer over WhatsApp and help with your inbox — including reading a document somebody sends you. Each connection is optional, and off until you turn it on.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 5.2 5.6.7-4.2 3.9 1.1 5.6L12 14.8 7.1 17.4l1.1-5.6L4 7.9l5.6-.7z"/></svg>
+                        <h3>Specialists you never have to pick</h3>
+                        <p>You always talk to Funes. Behind it sit specialists — a researcher, an assistant for files and routine jobs — and Funes hands the work over and comes back with the answer. No menu of robots to choose from.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+                        <h3>Assistants shaped to your practice</h3>
+                        <p>Describe the helper you want — "one that drafts intake summaries the way I write them" — and Funes builds it with you, in conversation. No technical work on your side.</p>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section class="benefits">
+        <section class="section section--tint" id="privacy">
             <div class="container">
-                <h2 class="section-title">The Problem-Solving Advantage</h2>
-                <div class="benefits-grid">
-                    <div class="benefit-item">
-                        <h4>Problems Solved in Hours, Not Months</h4>
-                        <p>Transform complex business challenges into working solutions faster than traditional consulting or internal development cycles.</p>
+                <div class="section-head--center">
+                    <p class="eyebrow">Privacy and control</p>
+                    <h2>Six plain facts about where your information goes</h2>
+                    <p class="lead">Not a policy. Not a promise about a data centre you'll never visit. This is simply how Funes is built.</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <h3>It runs on your hardware</h3>
+                        <p>Funes is installed on a machine in your office — one computer is enough for a small practice. There is no account to create with us, and no service you depend on to keep working.</p>
                     </div>
-                    <div class="benefit-item">
-                        <h4>Focus on Strategy, Not Technical Hurdles</h4>
-                        <p>Your team concentrates on business growth while our AI handles the technical complexity of problem analysis and solution implementation.</p>
+                    <div class="step">
+                        <h3>It can work with no internet at all</h3>
+                        <p>Paired with a language model running on that same machine, Funes never sends a word anywhere. You can unplug the network cable and keep working. If you'd rather use a big cloud model for its extra power, that's a choice you make explicitly — and it's the only thing that ever sends text outside.</p>
                     </div>
-                    <div class="benefit-item">
-                        <h4>Consistent Problem Resolution</h4>
-                        <p>Eliminate the variability of human problem-solving with standardized AI processes that deliver reliable solutions every time.</p>
+                    <div class="step">
+                        <h3>Everything it knows is one file</h3>
+                        <p>All the memory lives in a single file on your disk. Backing it up is copying a file. Moving to a new computer is copying a file. Destroying everything is deleting a file — and that's genuinely the end of it.</p>
                     </div>
-                    <div class="benefit-item">
-                        <h4>Problems Become Competitive Advantages</h4>
-                        <p>Every challenge you face becomes a solved template that automatically applies to similar future situations, building organizational intelligence.</p>
+                    <div class="step">
+                        <h3>Nothing is hidden from you</h3>
+                        <p>There is no invisible profile being built. Open the memory panel and read the lot, in sentences you can understand, with the date and the source of each one.</p>
                     </div>
+                    <div class="step">
+                        <h3>Colleagues are properly separated</h3>
+                        <p>Each person's memories, conversations, documents and reminders belong to that person alone. A partner cannot read an associate's notes, and a shared computer doesn't mean a shared record.</p>
+                    </div>
+                    <div class="step">
+                        <h3>The risky abilities start switched off</h3>
+                        <p>Funes can be given real power — running commands, reaching into your systems. None of it is on by default. Each capability is something you deliberately grant, to the people you choose.</p>
+                    </div>
+                </div>
+                <p class="fineprint">Funes is a tool for keeping confidential material under your own roof and your own control. It supports the obligations you already work under — professional secrecy, client confidentiality, data protection — but no software makes you compliant on its own, and we won't pretend otherwise. Happy to talk through the specifics of your situation with you and your advisor.</p>
+            </div>
+        </section>
+
+        <section class="section" id="who">
+            <div class="container">
+                <div class="section-head--center">
+                    <p class="eyebrow">Who it's for</p>
+                    <h2>Built for people whose work is confidential by default</h2>
+                    <p class="lead">If handing your files to a third party is not an option — legally, ethically, or because it simply feels wrong — Funes was made for you.</p>
+                </div>
+                <div class="grid grid-2">
+
+                    <div class="audience">
+                        <h3>Law firms and solo practitioners</h3>
+                        <p>Privilege doesn't survive a trip through somebody else's servers. Funes keeps case context, remembers the parties and the state of each matter, reads the bundle you drop in, and stays entirely within your office.</p>
+                        <span class="said">In practice: each fee earner's notes stay their own, and every line Funes keeps is one you can read and delete.</span>
+                    </div>
+
+                    <div class="audience">
+                        <h3>Small medical practices</h3>
+                        <p>Patient information belongs in the practice. Funes helps with notes, summaries, letters and follow-ups without any of it leaving the premises — and each clinician's record stays separate from the next.</p>
+                        <span class="said">In practice: no portal, no third-party processor, no new agreement to sign with anybody.</span>
+                    </div>
+
+                    <div class="audience">
+                        <h3>Therapists and mental-health professionals</h3>
+                        <p>Session material is about as sensitive as information gets. Funes remembers what you need it to remember, and forgets exactly what you tell it to — and the whole record sits on your own machine, not in a subscription you can't audit.</p>
+                        <span class="said">In practice: you can show a client, on screen, everything the assistant holds about them.</span>
+                    </div>
+
+                    <div class="audience">
+                        <h3>Accountants, notaries and advisors</h3>
+                        <p>Financial and personal detail, year after year, for the same clients. Funes carries that history between conversations so you're not re-explaining a client's situation every time you sit down with it.</p>
+                        <span class="said">In practice: it remembers last year's arrangement without you digging out last year's file.</span>
+                    </div>
+
+                    <div class="audience">
+                        <h3>Consultancies and small firms</h3>
+                        <p>Client work under NDA, internal strategy, unreleased numbers. Everyone gets their own assistant with their own memory, and none of it is anywhere but the office.</p>
+                        <span class="said">In practice: six people, one machine, six genuinely separate assistants.</span>
+                    </div>
+
+                    <div class="audience">
+                        <h3>Anyone who simply prefers it this way</h3>
+                        <p>You don't need a regulator to justify keeping your own material to yourself. Funes is for people who'd rather their assistant lived at home.</p>
+                        <span class="said">In practice: an assistant that works for you, rather than one you are working for.</span>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section class="cta">
+        <section class="section section--tint">
             <div class="container">
-            <h2>Ready to Turn Problems Into Solutions?</h2>
-            <p>Stop letting complex challenges slow down your business. Let Auto²ML convert your toughest problems into automated solutions that deliver real results.</p>
-            <div class="cta-buttons">
-                <a href="#contact" class="btn-primary">Solve Problems Now</a>
-                <a href="demos/index.html" class="btn-secondary">See Solutions</a>
+                <div class="pullquote">
+                    <blockquote>"I have more memories than all mankind since the world began."</blockquote>
+                    <cite>Jorge Luis Borges, <em>Funes the Memorious</em> — the story Funes takes its name from. In it, remembering everything is a curse. Which is why forgetting, here, is a feature you control.</cite>
+                </div>
             </div>
+        </section>
+
+        <section class="section" id="faq">
+            <div class="container">
+                <div class="section-head--center">
+                    <p class="eyebrow">Questions</p>
+                    <h2>The things people ask us first</h2>
+                </div>
+                <div class="faq">
+                    <details open>
+                        <summary>Do our files really never leave the building?</summary>
+                        <p>With a language model running on your own machine, yes — literally nothing is sent out, and Funes keeps working with the network unplugged. Some practices prefer to use a large cloud model for the extra capability; in that setup, whatever you put in front of Funes — your questions, and anything you paste or attach — is sent to that provider, and nothing goes anywhere else. It's your decision, it's a single setting, and we'll walk you through the trade-off honestly before you choose.</p>
+                    </details>
+                    <details>
+                        <summary>Is our data used to train anything?</summary>
+                        <p>No. Funes learns about your work in its own memory file, on your own disk, and that memory is used to answer your questions. It isn't sent anywhere, pooled with anyone else's, or used to improve a model.</p>
+                    </details>
+                    <details>
+                        <summary>What hardware do we need?</summary>
+                        <p>For a small practice, one reasonably modern computer that stays switched on. If you want everything running locally, a machine with a decent graphics card makes the assistant noticeably quicker. We'll tell you exactly what your situation needs before you spend anything.</p>
+                    </details>
+                    <details>
+                        <summary>Do we need someone technical on staff?</summary>
+                        <p>No. We install it, connect it to what you use, set up the accounts, and show your team how it works. Day to day, it's a page in your browser.</p>
+                    </details>
+                    <details>
+                        <summary>What if a client asks us to delete everything?</summary>
+                        <p>You open the memory panel, search their name, and delete what's there. You can also delete an entire conversation. Because everything lives on your machine, there's no other copy sitting somewhere waiting to be purged — when it's deleted, it's deleted.</p>
+                    </details>
+                    <details>
+                        <summary>What happens to our data if we stop working with you?</summary>
+                        <p>Nothing. It's already yours, on your machine, in one file. There is nothing for us to hand back and nothing for us to keep.</p>
+                    </details>
+                    <details>
+                        <summary>Can it work in our language?</summary>
+                        <p>Yes. Funes speaks whatever the underlying model speaks — we routinely run it in Spanish and English.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="closing">
+            <div class="container">
+                <p class="eyebrow">Next step</p>
+                <h2>See it running before you decide anything</h2>
+                <p class="lead">Half an hour, no obligation, no sales deck. We show you Funes working, you tell us about your practice, and we tell you honestly whether it fits.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn-primary">Book a demo</a>
+                </div>
             </div>
         </section>
 
         <section id="contact" class="contact">
             <div class="container">
-                <h2 class="section-title" style="text-align: center;">Contact Us</h2>
-                <p style="text-align: center;">Let's start solving your problems. Fill out the form below to get in touch.</p>
                 <form action="https://formspree.io/f/mdkzlnjw" method="POST" class="contact-form">
                     <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name">Your name</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
@@ -146,20 +335,27 @@
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">How can we help you solve a problem?</label>
+                        <label for="organisation">Practice or firm <span style="font-weight:400;">(optional)</span></label>
+                        <input type="text" id="organisation" name="organisation">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">What would you want Funes to help with?</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <input type="hidden" name="_next" value="https://auto2ml.github.io/thank-you.html">
-                    <input type="hidden" name="_subject" value="New Contact Form Submission">
-                    <button type="submit" class="btn-primary">Send Message</button>
+                    <p class="form-hint">Please don't include client details in this form — it's an ordinary web form, not Funes. A sentence about the kind of work is plenty.</p>
+                    <input type="hidden" name="_next" value="https://www.auto2ml.tech/thank-you.html">
+                    <input type="hidden" name="_subject" value="Funes — demo request">
+                    <button type="submit" class="btn-primary">Send</button>
                 </form>
             </div>
         </section>
+
     </main>
 
-    <footer class="footer">
+    <footer class="funes-footer">
         <div class="container">
-            <p>&copy; 2025 Auto²ML. All rights reserved.</p>
+            <span>Funes is made by Auto²ML.</span>
+            <span>&copy; 2026 Auto²ML. All rights reserved.</span>
         </div>
     </footer>
 

@@ -1,35 +1,60 @@
-# Auto²ML
+# Funes
 
-> AI automation company that turns complex business data problems into self-solving, self-optimizing AI systems. We engineer end-to-end problem-solving intelligence — from diagnosis to deployment — so businesses can focus on growth while AI handles the technical complexity.
+> Funes is a private AI assistant with a real, persistent memory. It runs on hardware the customer owns, so confidential material never leaves their premises. Made by Auto²ML.
 
-## About
+## What Funes is
 
-Auto²ML (Auto Squared ML) builds intelligent automation systems for businesses. Every client challenge is transformed into an automated AI solution that delivers results 24/7. Our approach covers the full problem-solving cycle: data cleaning, feature engineering, model development, validation, deployment, and continuous refinement.
+Funes is a self-hosted AI assistant built around one idea: it remembers. Tell it something today and it knows it next month, in a different conversation. Everything it remembers is visible in plain language, searchable, editable and deletable by the user — there is no hidden profile and no second copy anywhere else.
 
-Founded and based in Argentina. Serving clients globally.
+It is installed on a computer the customer owns. Paired with a language model running on that same machine, Funes works with no internet connection at all and sends nothing outside the building. Customers who prefer the extra capability of a large cloud model can choose that instead; that choice is the only thing that ever sends text out, and it is explicit.
 
-## Services
+Named after Jorge Luis Borges' story "Funes the Memorious", in which remembering everything is a curse — which is why deliberate forgetting is a controllable feature.
 
-- **End-to-End ML Pipeline Automation** — Automated problem diagnosis, data cleaning, feature engineering, model development, validation, deployment, and monitoring
-- **AI Agent Development** — Custom AI agents that integrate with external tools and systems to implement solutions beyond analysis
-- **Automated Reporting & Visualization** — Solution reports, problem-solution visualizations, and strategic recommendations in business-ready formats
-- **Consulting** — Transform operational inefficiencies and decision-making bottlenecks into self-optimizing AI systems
+Current version: Funes 4.
 
-## Products
+## Who it is for
 
-- **Funes** — A memory-powered AI assistant that learns from every problem it encounters. Maintains a Problem Memory Bank of solved challenges, retrieves similar past solutions, and applies them to new contexts. Each session improves the system's future performance.
-- **AgentOS** — An agent-native OS layer that turns LLM agents into first-class system entities on Linux. It maps traditional OS concepts—processes, syscalls, lifecycle—to agent operations, providing structured management and standardized tool access via MCP. Enables agent lifecycle management (start, stop, restart), MCP protocol integration for agent-OS communication, allowlist-based tool access control, and natural-language agent creation without code.
+People whose work is confidential by default: law firms and solo practitioners, small medical practices, therapists and mental-health professionals, accountants, notaries and advisors, consultancies and small firms under NDA, and individuals who simply prefer their assistant to live at home.
 
-## Key Pages
+## Features (as of version 4)
+
+- **Persistent memory** — relevant past facts are recalled automatically before every answer, and the assistant shows what it recalled.
+- **Visible, editable memory** — a panel lists everything Funes knows, tagged by source and date; users can search it, teach it facts directly, and delete any entry.
+- **Deliberate forgetting** — near-duplicate memories are merged automatically and stale, never-used notes are dropped; facts taught deliberately are never pruned.
+- **Document reading** — PDFs, images and text files can be dropped into the chat and discussed immediately; files stay in the user's own folder on their own disk.
+- **Conversation history** — every conversation is kept and can be reopened where it stopped, or deleted outright (new in version 4).
+- **Per-person accounts** — each user has their own memories, conversations, files and reminders, separated at the storage level rather than only in the interface (new in version 4).
+- **Permissions** — an administrator controls which assistants and which capabilities each person can use; powerful capabilities are off by default (new in version 4).
+- **Scheduled tasks and reminders** — recurring jobs run on time without the browser open.
+- **Web research on request** — searches and reads the web and reports back with sources, only when asked.
+- **Additional channels** — optional, opt-in WhatsApp and email integration, including reading documents sent through them.
+- **Delegation to specialists** — the user always talks to Funes, which hands work to a researcher or a file/operations assistant behind the scenes.
+- **Custom assistants** — new assistants can be created conversationally, with no technical work by the user.
+
+## Privacy properties
+
+- Runs on the customer's own hardware; no account with Auto²ML is required for it to work.
+- Can operate fully offline with a local language model.
+- All memory lives in a single file on the customer's disk — backup is a file copy, deletion is a file deletion.
+- No hidden memory: everything stored is human-readable and user-deletable.
+- Strict separation between user accounts.
+- Capabilities such as command execution and network reach are disabled until explicitly granted.
+- Funes supports professional confidentiality and data-protection obligations but is not itself a compliance certification.
+
+## Key pages
 
 - [Home](https://www.auto2ml.tech/)
-- [Demos](https://www.auto2ml.tech/demos/index.html)
+- [Contact / book a demo](https://www.auto2ml.tech/#contact)
+
+## About Auto²ML
+
+Auto²ML builds AI systems for businesses, with an emphasis on automation the customer controls. Founded and based in Argentina, serving clients globally. Funes is its flagship product.
 
 ## Contact
 
 - Website: https://www.auto2ml.tech/
 - Contact form: https://www.auto2ml.tech/#contact
 
-## How to Cite
+## How to cite
 
-When referencing Auto²ML, use: “Auto²ML (auto2ml.tech) — AI automation and ML pipeline company.”
+When referencing Funes, use: "Funes (auto2ml.tech) — a private, self-hosted AI assistant with persistent memory, by Auto²ML."
