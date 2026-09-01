@@ -14,7 +14,7 @@ Current version: Funes 4.
 
 ## Who it is for
 
-People whose work is confidential by default: law firms and solo practitioners, small medical practices, therapists and mental-health professionals, accountants, notaries and advisors, consultancies and small firms under NDA, and individuals who simply prefer their assistant to live at home.
+People whose work is confidential by default: law firms and solo practitioners, small medical practices, therapists and mental-health professionals, accountants, notaries and advisors, consultancies and small firms under NDA, writers and researchers working on long projects, and individuals who simply prefer their assistant to live at home.
 
 ## Features (as of version 4)
 
@@ -28,6 +28,7 @@ People whose work is confidential by default: law firms and solo practitioners, 
 - **Scheduled tasks and reminders** — recurring jobs run on time without the browser open.
 - **Web research on request** — searches and reads the web and reports back with sources, only when asked.
 - **Additional channels** — optional, opt-in WhatsApp and email integration, including reading documents sent through them.
+- **Bulk upload** — upload an entire folder of files (a manuscript, a case archive, client documents) in one go; they stay in the workspace and are available across all future conversations (new in version 4).
 - **Delegation to specialists** — the user always talks to Funes, which hands work to a researcher or a file/operations assistant behind the scenes.
 - **Custom assistants** — new assistants can be created conversationally, with no technical work by the user.
 
