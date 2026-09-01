@@ -44,8 +44,8 @@ People whose work is confidential by default: law firms and solo practitioners, 
 
 ## Key pages
 
-- [Home](https://www.auto2ml.tech/)
-- [Contact / book a demo](https://www.auto2ml.tech/#contact)
+- [Home](https://julioauto2ml.github.io/funes-ai/)
+- [Contact / book a demo](https://julioauto2ml.github.io/funes-ai/#contact)
 
 ## About Auto²ML
 
@@ -53,9 +53,9 @@ Auto²ML builds AI systems for businesses, with an emphasis on automation the cu
 
 ## Contact
 
-- Website: https://www.auto2ml.tech/
-- Contact form: https://www.auto2ml.tech/#contact
+- Website: https://julioauto2ml.github.io/funes-ai/
+- Contact form: https://julioauto2ml.github.io/funes-ai/#contact
 
 ## How to cite
 
-When referencing Funes, use: "Funes (auto2ml.tech) — a private, self-hosted AI assistant with persistent memory, by Auto²ML."
+When referencing Funes, use: "Funes (julioauto2ml.github.io/funes-ai) — a private, self-hosted AI assistant with persistent memory, by Auto²ML."
