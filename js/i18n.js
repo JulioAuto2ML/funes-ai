@@ -29,6 +29,7 @@
       "hero.trust4": `Delete anything, any time`,
 
       "shot.bar": `Funes — running on the machine in your own office`,
+      "shot.imgSrc": `img/funes-ui.png`,
       "shot.imgAlt": `The Funes interface: a conversation on the left, and a panel on the right listing everything Funes remembers, each item with its source and date, and a box to teach it a new fact.`,
       "shot.caption": `On the right: everything Funes remembers about you. Search it, add to it, delete any line of it. There is no other copy.`,
 
@@ -185,6 +186,7 @@
       "hero.trust4": `Eliminá lo que quieras, cuando quieras`,
 
       "shot.bar": `Funes — corriendo en la máquina de tu propia oficina`,
+      "shot.imgSrc": `img/funes-ui-es.png`,
       "shot.imgAlt": `La interfaz de Funes: una conversación a la izquierda y, a la derecha, un panel con todo lo que Funes recuerda, cada dato con su fuente y su fecha, y un campo para enseñarle un hecho nuevo.`,
       "shot.caption": `A la derecha: todo lo que Funes recuerda sobre vos. Buscalo, agregá información, eliminá cualquier línea. No existe otra copia.`,
 
@@ -341,6 +343,7 @@
       "hero.trust4": `随时删除任意内容`,
 
       "shot.bar": `Funes —— 运行在您自己办公室的设备上`,
+      "shot.imgSrc": `img/funes-ui-zh.png`,
       "shot.imgAlt": `Funes 界面：左侧为对话区，右侧面板列出 Funes 记住的全部内容，每条信息均标注来源与日期，并附有添加新信息的输入框。`,
       "shot.caption": `右侧：Funes 记住的关于您的一切信息。可以搜索、补充、删除任意一条，没有第二份副本。`,
 
@@ -489,13 +492,15 @@
     });
 
     document.querySelectorAll("[data-i18n-attr]").forEach(function (el) {
-      var spec = el.getAttribute("data-i18n-attr"); // "attr:key"
-      var parts = spec.split(":");
-      var attr = parts[0];
-      var key = parts[1];
-      if (dict[key] !== undefined) {
-        el.setAttribute(attr, dict[key]);
-      }
+      var specs = el.getAttribute("data-i18n-attr").split(/\s+/);
+      specs.forEach(function (spec) {
+        var parts = spec.split(":");
+        var attr = parts[0];
+        var key = parts[1];
+        if (dict[key] !== undefined) {
+          el.setAttribute(attr, dict[key]);
+        }
+      });
     });
 
     document.documentElement.setAttribute("lang", htmlLangTag[lang] || lang);
